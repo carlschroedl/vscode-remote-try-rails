@@ -2,6 +2,11 @@
 
 [VS Code Remote Containers Development docs](https://code.visualstudio.com/docs/remote/containers)
 
+## Prerequisites
+
+* [docker](https://docs.docker.com/engine/install/) (tested with 19.03.13, build 4484c46d9d)
+* [docker-compose](https://docs.docker.com/compose/install/) (tested with 1.27.4, build 40524192))
+
 # Inspired by:
 
 https://verschaffelt.be/2019/06/24/remote-development-with-visual-studio-code/
