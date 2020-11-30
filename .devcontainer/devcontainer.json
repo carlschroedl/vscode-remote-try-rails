@@ -1,0 +1,21 @@
+{
+	"name": "Ruby on Rails",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { 
+			"VARIANT": "2",
+			"NODE_VERSION": "lts/*"
+		}
+	},
+
+	"settings": { 
+		"terminal.integrated.shell.linux": "/bin/bash"
+	},
+
+	"extensions": [
+		"rebornix.Ruby"
+	],
+	// "forwardPorts": [3000],
+	"postCreateCommand": "ruby --version",
+	"remoteUser": "vscode"
+}
