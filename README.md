@@ -9,6 +9,8 @@
 
 # Inspired by:
 
+https://github.com/microsoft/vscode-dev-containers/tree/master/containers/ruby-rails
+
 https://verschaffelt.be/2019/06/24/remote-development-with-visual-studio-code/
 
 https://github.com/atona/vscode-remote-try-rails
