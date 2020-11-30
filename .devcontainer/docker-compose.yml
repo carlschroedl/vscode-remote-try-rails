@@ -29,11 +29,11 @@ services:
       context: .
       dockerfile: Dockerfile
       args:
-        VARIANT: 2
+        VARIANT: 2.7
         NODE_VERSION: "lts/*"
     command: sleep infinity
     ports:
-      - '5000:5000'
+      - '3000:3000'
     volumes:
       - ~/.gitconfig:/root/.gitconfig
       - ..:/workspace
