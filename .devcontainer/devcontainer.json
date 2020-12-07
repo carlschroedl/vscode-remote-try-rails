@@ -8,7 +8,11 @@
 	},
 
 	"extensions": [
-		"rebornix.Ruby"
+		"rebornix.Ruby",
+		"oderwat.indent-rainbow",
+		"dbaeumer.vscode-eslint",
+		"misogi.ruby-rubocop",
+		"castwide.solargraph"
 	],
 	"forwardPorts": [3000, 3306, 8080],
 	"postCreateCommand": "ruby --version",

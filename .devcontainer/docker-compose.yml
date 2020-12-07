@@ -35,5 +35,18 @@ services:
     ports:
       - '3000:3000'
     volumes:
+      # git
       - ~/.gitconfig:/root/.gitconfig
+      # all source code
       - ..:/workspace
+      # dependency caches
+      - node-cache:/workspace/node_modules
+      - bundle-cache:/usr/local/bundle
+      - system-gem-cache:/usr/local/lib/ruby/gems
+      - user-gem-cache:/home/vscode/.gem
+
+volumes:
+  node-cache:
+  bundle-cache:
+  system-gem-cache:
+  user-gem-cache:
